@@ -11,7 +11,7 @@ export default function Contact() {
         <Container>
             {/* Le titre de la section est juste en dessous */}
             <Title> me contacter </Title>
-            <div className="grid md:grid-cols-2 gap-4 md:gap-6 px-4 md:px-0">
+            <div className="grid md:grid-cols-2 gap-4 md:gap-6">
                 <div className="pt-4 md:pt-6">
                     <img src={imgContact} alt="Illutration de contact Abel" className="w-[58%] mx-auto"/>
                 </div>

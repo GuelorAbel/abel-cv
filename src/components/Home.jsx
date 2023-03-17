@@ -13,12 +13,12 @@ export default function Home() {
       return (
       <section id="home">
             {/* l'image d'arrière plan est en dessous */}
-            <img src={Abel} alt="Abel ANGO développant un site internet" className="w-full h-screen object-cover object-center scale-x-[-1]"/>
+            <img src={Abel} alt="Abel ANGO développant un site internet" className="w-full h-[100vh] object-cover object-center scale-x-[-1]"/>
             {/* La description de Abel */}
             <div className="w-full h-full absolute top-0 left-0 bg-white/60">
                   <Container className={"flex flex-col justify-center"}>
-                        <h1 className="lg:text-8xl md:text-6xl sm:text-5xl text-4xl font-bold px-4 md:px-0">Guelor Abel ANGO</h1>
-                        <h3 className="flex flex-col md:flex-row sm:text-3xl text-xl py-4 gap-x-1 px-4 md:px-0"> Je suis  
+                        <h1 className="lg:text-8xl md:text-6xl sm:text-5xl text-4xl font-bold">Guelor Abel ANGO</h1>
+                        <h3 className="flex flex-col md:flex-row sm:text-3xl text-xl py-4 gap-x-1"> Je suis  
                         <TypeAnimation
                               sequence={[
                               'Technicien Système & Réseau', // fonction N°1

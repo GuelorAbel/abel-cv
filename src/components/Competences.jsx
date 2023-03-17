@@ -24,7 +24,7 @@ export default function Competences() {
             <div className="grid md:grid-cols-3 gap-4 mt-6 md:mt-12">
 
               {/* 1er bloc système & réseau */}
-              <div className="px-4 md:px-0">
+              <div>
                 <SubTiltle className={"text-center"}> système & réseau </SubTiltle>
                 {/* 1 */}
                 <div className="pt-2">
@@ -49,7 +49,7 @@ export default function Competences() {
                </div>
               {/* 4 */}
               <div className="pt-1">
-                  <span>Gestion de réseau local </span>
+                  <span>Gestion du réseau local </span>
                   <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[70%]"> 70%</div>
                   </div>
@@ -65,7 +65,7 @@ export default function Competences() {
               </div>
 
               {/* 2eme bloc développement web front-end */}
-              <div className="px-4 md:px-0">
+              <div>
               <SubTiltle className={"text-center"}> développement web </SubTiltle>
                 {/* 1 */}
                 <div className='pt-2'>
@@ -105,7 +105,7 @@ export default function Competences() {
               </div>
 
               {/* 3eme bloc UI/UX design */}
-              <div className="px-4 md:px-0 mb-4">
+              <div >
                <SubTiltle className={"text-center"}> ui/ux design </SubTiltle>
                 {/* 1 */}
                 <div className="pt-2">

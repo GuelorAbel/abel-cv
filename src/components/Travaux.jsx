@@ -19,11 +19,12 @@ export default function Travaux() {
             <Title> mes réalisations </Title>
             
             <p className="text-center pt-3 md:pt-4 md:w-[60%] mx-auto text-sm md:text-base mt-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vel cupiditate vero obcaecati.
-                  Rem exercitationem numquam, illo assumenda doloribus quae earum nulla veniam consequatur vitae 
-                  distinctio tempore animi similique architecto?
+                  Trouvez ci-dessous, un aperçu des projet que j'ai récemment développé. <br />
+                  Il met en évidence les différents projets sur lesquels j'ai travaillé, ainsi que mes compétences et mes 
+                  connaissances en matière de technologies web modernes. Ses plateformes répondent aux besoins des clients, avec
+                  une attention portée sur l'expérience utilisateur et l'optimisation pour les moteurs de recherche.
             </p>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-12">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-1 pt-12">
               <ItemWork img={cv} titre="Mon portefolio" url="https://www.freepik.com/" />
               <ItemWork img={gedservices} titre="GED Services" url="https://ged-services.group-ged.com" />
               <ItemWork img={groupged} titre="Group-GED" url="https://group-ged.com/" />
