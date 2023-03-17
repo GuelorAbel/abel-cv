@@ -24,7 +24,7 @@ export default function Travaux() {
                   connaissances en matière de technologies web modernes. Ses plateformes répondent aux besoins des clients, avec
                   une attention portée sur l'expérience utilisateur et l'optimisation pour les moteurs de recherche.
             </p>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-1 pt-12">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 lg:gap-3 pt-12">
               <ItemWork img={cv} titre="Mon portefolio" url="https://www.freepik.com/" />
               <ItemWork img={gedservices} titre="GED Services" url="https://ged-services.group-ged.com" />
               <ItemWork img={groupged} titre="Group-GED" url="https://group-ged.com/" />

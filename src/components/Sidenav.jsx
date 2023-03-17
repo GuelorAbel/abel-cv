@@ -54,7 +54,7 @@ export default function Sidenav() {
                   ) }
 
                   {/* Le menu qui s'affiche sur grands écrans */}
-                  <div className="md:block hidden fixed top-[20%] z-10 ">
+                  <div className="md:block hidden fixed top-[5%] md:top-[30%] z-10 ">
                         <div className="flex flex-col">
                               {/* 1 */}
                               <a href="#home" className="menuLinkTwo"> 

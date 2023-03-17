@@ -17,7 +17,7 @@ export default function Home() {
             {/* La description de Abel */}
             <div className="w-full h-full absolute top-0 left-0 bg-white/60">
                   <Container className={"flex flex-col justify-center"}>
-                        <h1 className="lg:text-8xl md:text-6xl sm:text-5xl text-4xl font-bold">Guelor Abel ANGO</h1>
+                        <h1 className="lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-bold">Guelor Abel ANGO</h1>
                         <h3 className="flex flex-col md:flex-row sm:text-3xl text-xl py-4 gap-x-1"> Je suis  
                         <TypeAnimation
                               sequence={[
