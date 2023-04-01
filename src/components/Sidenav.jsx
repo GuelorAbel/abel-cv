@@ -55,27 +55,27 @@ export default function Sidenav() {
                   ) }
 
                   {/* Le menu qui s'affiche sur grands écrans */}
-                  <div className="md:block hidden fixed top-[2%] md:top-[10%] lg:top-[20%] xl:top-[25%] 2xl:top-[30%] z-10 ">
+                  <div className="md:block hidden fixed top-[2%] md:top-[5%] lg:top-[10%] xl:top-[20%] 2xl:top-[25%] z-10 ">
                         <div className="flex flex-col">
                               {/* 1 */}
                               <a href="#home" className="menuLinkTwo" title="#Accueil"> 
-                                    <GoHome size={30} />
+                                    <GoHome size={20} />
                               </a>
                               {/* 2 */}
                               <a href="#competences" className="menuLinkTwo" title="#Compétences"> 
-                                    <GoLightBulb size={30} />
+                                    <GoLightBulb size={20} />
                               </a>
                               {/* 3 */}
                               <a href="#experiences" className="menuLinkTwo" title="#Expériences"> 
-                                    <GoGraph size={30} />
+                                    <GoGraph size={20} />
                               </a>
                               {/* 4 */}
                               <a href="#travaux" className="menuLinkTwo" title="#Traveaux"> 
-                                    <GoTools size={30} />
+                                    <GoTools size={20} />
                               </a>
                               {/* 5 */}
                               <a href="#contact" className="menuLinkTwo" title="#Contact"> 
-                                    <GoMail size={30} />
+                                    <GoMail size={20} />
                               </a>
                         </div>
                   </div>
