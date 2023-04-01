@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function WorkExp({comp, poste, annee, duree, details}) {
   return (
-// 1. données
-// 2. comportements
-// 3.affichage
+  // 1- états
+  // 2- comportements
+  // 3- rendu navigateur
     <div className="mt-3 md:mt-6 w-[85%]">
         <ol className="flex flex-col md:flex-row relative border-l border-stone-200 w-full">
             <li className="ml-4">

@@ -10,9 +10,9 @@ import { GoFilePdf } from 'react-icons/go'
 
 export default function Competences() {
   return (
-  // 1. données
-  // 2. comportements
-  // 3. affichage
+  // 1- états
+  // 2- comportements
+  // 3- rendu navigateur
     <section id="competences" className="py-6 md:py-10 lg:py-20 relative">
 
       <Container >
@@ -146,10 +146,12 @@ export default function Competences() {
               </div>
 
             </div>
-            <Bouton className="foat-none md:float-right shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4
-  cursor-pointer ease-in duration-200 hover:scale-110 rounded-full">
-               <a href={CvPDF} target="_blank" title="Téléchager mon CV au format PDF">
-                  <GoFilePdf size={25}/>
+            <Bouton className="float-none md:float-right shadow-lg bg-gray-100 shadow-gray-400  my-6 py-3 px-4
+                  cursor-pointer ease-in duration-200 hover:scale-105 rounded-full font-semibold">
+               <a className="flex items-cente" href={CvPDF} target="_blank"
+               >
+                  <span className="mr-2">Télécharger mon CV au format .PDF</span>
+                  <GoFilePdf size={20} className="animate-bounce text-[#ff7b00] "/>
                </a>
             </Bouton>
 

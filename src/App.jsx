@@ -8,10 +8,12 @@ import Sidenav from "./components/Sidenav";
 import Travaux from "./components/Travaux";
 
 
-function App() {
-//  1. les données
-// 2. les comportements
-// 3. l'affichage
+export default function App() {
+  // 1- états
+
+  // 2- comportements
+
+  // 3- rendu navigateur
   return (
     <>
         <header>
@@ -31,4 +33,3 @@ function App() {
   )
 }
 
-export default App

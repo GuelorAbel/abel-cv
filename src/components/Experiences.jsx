@@ -6,6 +6,9 @@ import Title from './elements/Title'
 import WorkExp from './WorkExp'
 
 export default function Experiences() {
+  // 1- états
+  // 2- comportements
+  // 3- rendu navigateur
   return (
     <section id="experiences" className="py-6 md:py-10 lg:py-20">
         <Container>

@@ -3,18 +3,19 @@ import React, {useState} from 'react';
 import {GoGraph, GoMail, GoThreeBars, GoTools, GoLightBulb, GoHome} from 'react-icons/go';
 
 export default function Sidenav() {
-// 1. données
+  // 1- états
       const [nav, setNav] = useState(false);
 
-// 2. comportenants
+  // 2- comportements
       const handleNav = () => {
             setNav(!nav);
       };
 
-// 3. affichage
+  // 3- rendu navigateur
       return (
       <div >
-            <GoThreeBars size={25} className='fixed top-4 right-4 z-[99] cursor-pointer md:hidden' onClick={handleNav} />
+            <GoThreeBars size={25} className='fixed bg-[#f3f4f6] bg-opacity-40 shadow-md shadow-one/10 backdrop-blur-sm top-6 right-4 z-[99] cursor-pointer md:hidden' 
+            onClick={handleNav} />
             {/* Le code qui vérifie si le menu est ouvert ou fermé */}
             {
                   nav ? ( 
@@ -54,26 +55,26 @@ export default function Sidenav() {
                   ) }
 
                   {/* Le menu qui s'affiche sur grands écrans */}
-                  <div className="md:block hidden fixed top-[5%] md:top-[30%] z-10 ">
+                  <div className="md:block hidden fixed top-[2%] md:top-[10%] lg:top-[20%] xl:top-[25%] 2xl:top-[30%] z-10 ">
                         <div className="flex flex-col">
                               {/* 1 */}
-                              <a href="#home" className="menuLinkTwo"> 
+                              <a href="#home" className="menuLinkTwo" title="#Accueil"> 
                                     <GoHome size={30} />
                               </a>
                               {/* 2 */}
-                              <a href="#competences" className="menuLinkTwo"> 
+                              <a href="#competences" className="menuLinkTwo" title="#Compétences"> 
                                     <GoLightBulb size={30} />
                               </a>
                               {/* 3 */}
-                              <a href="#experiences" className="menuLinkTwo"> 
+                              <a href="#experiences" className="menuLinkTwo" title="#Expériences"> 
                                     <GoGraph size={30} />
                               </a>
                               {/* 4 */}
-                              <a href="#travaux" className="menuLinkTwo"> 
+                              <a href="#travaux" className="menuLinkTwo" title="#Traveaux"> 
                                     <GoTools size={30} />
                               </a>
                               {/* 5 */}
-                              <a href="#contact" className="menuLinkTwo"> 
+                              <a href="#contact" className="menuLinkTwo" title="#Contact"> 
                                     <GoMail size={30} />
                               </a>
                         </div>

@@ -3,9 +3,12 @@ import imgContact from '../assets/aby-contact.png'
 import Container from './elements/Container'
 import Title from './elements/Title'
 // les icones
-import { SlLocationPin, SlPhone, SlScreenSmartphone, SlEnvolopeLetter} from 'react-icons/sl'
+import { RiMailUnreadLine, RiCellphoneFill, RiPhoneFill, RiMapPin5Fill} from 'react-icons/ri'
 
 export default function Contact() {
+  // 1- états
+  // 2- comportements
+  // 3- rendu navigateur
   return (
     <section id="contact" className="py-6 md:py-10 lg:py-20">
         <Container>
@@ -18,22 +21,22 @@ export default function Contact() {
                 {/* bloc coordonnées et contact */}
                 <div className="my-auto">
                   <address className="py-4 flex items-center justify-start">
-                    <SlLocationPin size={25} className="text-[#ff7b00] mr-2"/>
+                    <RiMapPin5Fill size={32} className="text-[#ff7b00] mr-2"/>
                     <span className="uppercase"> carrefour cuvette centrale</span>
                   </address>
                   {/* ---------------------- */}
                   <address className="py-4 flex items-center justify-start">
-                    <SlScreenSmartphone size={25} className="text-[#ff7b00] mr-2"/>
+                    <RiCellphoneFill size={32} className="text-[#ff7b00] mr-2"/>
                     <span className="uppercase"> (+241) 74 450 529 </span>
                   </address>
                   {/* ---------------------- */}
                   <address className="py-4 flex items-center justify-start">
-                    <SlPhone size={25} className="text-[#ff7b00] mr-2"/>
+                    <RiPhoneFill size={32} className="text-[#ff7b00] mr-2"/>
                     <span className="uppercase"> (+241) 62 687 749 </span>
                   </address>
                   {/* ---------------------- */}
                   <address className="py-4 flex items-center justify-start">
-                    <SlEnvolopeLetter size={25} className="text-[#ff7b00] mr-2"/>
+                    <RiMailUnreadLine size={32} className="text-[#ff7b00] mr-2"/>
                     <span className="uppercase"> gueloraby@gmail.com </span>
                   </address>
 
