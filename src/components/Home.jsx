@@ -32,7 +32,7 @@ export default function Home() {
                         />
                         </h3>
                         {/* block des réseau sociaux */}
-                        <div className="flex justify-between items-center max-w-xs w-full px-4 md:px-0">
+                        <div className="flex justify-start lg:justify-between items-center max-w-xs w-full px-4 md:px-0">
                               <a href="https://facebook.com/abel.guelor" target="_blank" className="mr-3">
                                     <RiFacebookCircleFill size={32} />
                               </a>

@@ -8,9 +8,10 @@ const data = [{
     details: `-Gérer le parc informatique, -Gérer le réseau LAN, -Gérer les adresses e-mail(créer/modifier/supprimer)
     et les configurer sur Outlook, -Assurer le support technique aux utlisateurs, -Concevoir les supports de communication
     (badge professionnel, cartes de visite...), -Créer des maquettes des plateformes web et gérer l'hébergeur web, 
-    -Gérer le serveur DNS et ajouter les nouveaux utilisateurs au doaine, -Mettre en place les procédures pour le service 
+    -Gérer le serveur DNS et ajouter les nouveaux utilisateurs au domaine, -Mettre en place les procédures pour le service 
     informatique, -Suivre les projets lié au service informatique(rédaction cahier de charges...), -Gérer les fournisseurs pour
-    l'achat de nouveau matériel informatique, -Mettre en place le HelpDesk avec GLPI.`
+    l'achat de nouveau matériel informatique, -Mettre en place le HelpDesk avec GLPI, -Mettre en place la charte graphique
+    et le design système du Group-GED.`
  },
  {
     id: 2,
@@ -56,7 +57,7 @@ const data = [{
     duree: "8mois",
     poste: "Technicien informatique",
     details: `-Installer et préparer les postes pour la vente(installation des systèmes
-    d'exploitation et les logiciels utiles), -Effectuer la maintenance hardware & software, -Assurer le suupport aux clients.`
+    d'exploitation et les logiciels utiles), -Effectuer la maintenance hardware & software, -Assurer le support aux clients.`
  },
 ];
 
