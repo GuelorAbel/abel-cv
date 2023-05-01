@@ -18,19 +18,17 @@ export default function Home() {
             <div className="w-full h-full absolute top-0 left-0 bg-[#f3f4f6] bg-opacity-60">
                   <Container className={"flex flex-col justify-center"}>
                         <h1 className="lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-bold">Guelor Abel ANGO</h1>
-                        <h3 className="flex flex-col md:flex-row sm:text-3xl text-xl py-4 gap-x-1">
-                        <TypeAnimation
+                        <TypeAnimation className="sm:text-3xl text-xl py-4 gap-x-1"
                               sequence={[
                               'Technicien Système & Réseau', // fonction N°1
                               4000, 
                               'Developpeur web Front-end', // fonction N°2
                               4000, 
                               ]}
-                              wrapper="div" // Cela représente dans quelle type de balise se trouve mon contenu
+                              wrapper="h3" // Cela représente dans quelle type de balise se trouve mon contenu
                               cursor={true}
                               repeat={Infinity}
                         />
-                        </h3>
                         {/* block des réseau sociaux */}
                         <div className="flex justify-start lg:justify-between items-center max-w-xs w-full px-4 md:px-0">
                               <a href="https://facebook.com/abel.guelor" target="_blank" className="mr-3">
