@@ -111,7 +111,7 @@ export default function Competences() {
                 <div className="pt-2 mt-2">
                   <span>Conception de l'interface utilisateur </span>
                   <div className="w-[85%] bg-gray-200 rounded-full mt-1">
-                     <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[70%]"> 70%</div>
+                     <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
                   </div>
                </div>
                {/* 2 */}

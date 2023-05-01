@@ -11,7 +11,7 @@ export default function Home() {
   // 2- comportements
   // 3- rendu navigateur
       return (
-      <section id="home">
+      <section id="home" className="relative">
             {/* l'image d'arrière plan est en dessous */}
             <img src={Abel} alt="Abel ANGO développant un site internet" className="w-full h-[100vh] object-cover object-center scale-x-[-1]"/>
             {/* La description de Abel */}
