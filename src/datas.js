@@ -3,7 +3,7 @@ const data = [{
     id: 1,
     comp: "Group-GED",
     annee: "06/07/2021 - Aujourd'hui",
-    duree: "1an 9mois",
+    duree: "1an 11mois",
     poste: "Responsable du Service Informatique",
     details: `-Gérer le parc informatique, -Gérer le réseau LAN, -Gérer les adresses e-mail(créer/modifier/supprimer)
     et les configurer sur Outlook, -Assurer le support technique aux utlisateurs, -Concevoir les supports de communication

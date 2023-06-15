@@ -29,37 +29,37 @@ export default function Competences() {
                 {/* 1 */}
                 <div className="pt-2 my-2">
                   <span>Installation et configuration </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[80%]"> 80%</div>
-                  </div>
+                  </div> */}
                </div>
                {/* 2 */}
                <div className="pt-1 my-2">
                   <span>Maintenance et dépannage </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[75%]"> 75%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 3 */}
               <div className="pt-1 my-2">
                   <span>Sécurité des systèmes et réseaux </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 4 */}
               <div className="pt-1 my-2">
                   <span>Gestion du réseau local </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[70%]"> 70%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 5 */}
               <div className="pt-1 my-2">
                   <span>Support technique </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[85%]"> 85%</div>
-                  </div>
+                  </div> */}
                </div>
 
               </div>
@@ -70,37 +70,37 @@ export default function Competences() {
                 {/* 1 */}
                 <div className='pt-2 my-2'>
                   <span>Conception et développement </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[80%]"> 80%</div>
-                  </div>
+                  </div> */}
                </div>
                {/* 2 */}
                <div className='pt-1 my-2'>
                   <span>Optimisation de la performance </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[70%]"> 70%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 3 */}
               <div className='pt-1 my-2'>
                   <span>Maintenance </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 4 */}
               <div className='pt-1 my-2'>
                   <span>Tests </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[75%]"> 75%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 5 */}
               <div className='pt-1 my-2'>
                   <span>Collaboration  </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[90%]"> 90%</div>
-                  </div>
+                  </div> */}
                </div>
               </div>
 
@@ -110,37 +110,37 @@ export default function Competences() {
                 {/* 1 */}
                 <div className="pt-2 mt-2">
                   <span>Conception de l'interface utilisateur </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
-                  </div>
+                  </div> */}
                </div>
                {/* 2 */}
                <div className='pt-1 my-2'>
                   <span>Recherche et analyse </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[80%]"> 80%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 3 */}
               <div className='pt-1 my-2'>
                   <span>Prototypage et tests </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[75%]"> 75%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 4 */}
               <div className='pt-1 my-2'>
                   <span>Collaboration </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[90%]"> 90%</div>
-                  </div>
+                  </div> */}
                </div>
               {/* 5 */}
               <div className='pt-1 my-2'>
                   <span>Amélioration continue </span>
-                  <div className="w-[85%] bg-gray-200 rounded-full mt-1">
+                  {/* <div className="w-[85%] bg-gray-200 rounded-full mt-1">
                      <div className="bg-[#ff7b00] text-xs font-medium text-[#1e293b] text-center p-0.5 leading-none rounded-full w-[80%]"> 80%</div>
-                  </div>
+                  </div> */}
                </div>
 
               </div>
